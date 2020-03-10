@@ -123,7 +123,6 @@ export default class AlertDetail extends Component {
 
               <View style={{flex: 1, flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around'}}>
                 <Text style={{marginBottom: 0, fontSize: 35}}>Set Daily Med Reminder</Text>
-                {/* --days-- */}
                 <View style={{height: 100, width: 'auto'}}>
                   <Text style={{fontSize: 25}}>Every</Text>
                   <Picker selectedValue={this.state.selectedMedDay} onValueChange={(md) => this.setState({selectedMedDay: md})}>
@@ -131,7 +130,6 @@ export default class AlertDetail extends Component {
                   </Picker>
                   <Text style={{fontSize: 25}}>Day(s)</Text>
                 </View >
-                {/* --hours-- */}
                 <View style={{height: 100, width: 'auto'}}>
                   <Text style={{marginTop: "10%", fontSize: 25}}>Every</Text>
                   <Picker selectedValue={this.state.selectedHour} onValueChange={(hr) => this.setState({selectedHour: hr})}>
@@ -139,7 +137,6 @@ export default class AlertDetail extends Component {
                   </Picker>
                   <Text style={{fontSize: 25}}>Hour(s)</Text>
                 </View>
-                {/* --Time-- */}
                 <View style={{height: 100, width: 'auto'}}>
                   <Text style={{marginTop: "10%", fontSize: 25}}>Start At</Text>
                   <Picker selectedValue={this.state.selectedTime} onValueChange={(t) => this.setState({selectedTime: t})}>

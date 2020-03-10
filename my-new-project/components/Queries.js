@@ -146,10 +146,9 @@ export default class Queries extends React.Component {
       ],
       {cancelable: false},
     ))
-    //.then(() => this.addMedication())
     .catch((err) => console.log(err))
   }
-//
+
   addMedication() {
 
     axios.post(`http://52.53.163.210:3000/mvp/drug`, {

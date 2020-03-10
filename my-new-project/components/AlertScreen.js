@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 import AlertDetail from './AlertDetail.js';
 import axios from 'axios';
-//import dummy from '../dummyData.js';
 
 const styles =StyleSheet.create({
   header: {
@@ -66,4 +65,3 @@ export default class AlertScreen extends Component {
     );
   }
 }
-//hello
